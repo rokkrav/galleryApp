@@ -1,0 +1,44 @@
+.gallery-main-container {
+  display: flex;
+  justify-content: center;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  margin-top: 34px;
+  margin-bottom: 34px;
+  max-width: 1140px;
+}
+.gallery-image {
+  border-radius: 18px;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 24px;
+  color: #1e293b;
+  font-weight: 500;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 36px;
+  }
+}
+.images-description {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #a1acbd;
+  font-weight: 500;
+}
+@media screen and (min-width: 768px) {
+  .images-description {
+    font-size: 24px;
+  }
+}
+.thumbnails-container {
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
